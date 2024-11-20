@@ -1,0 +1,4 @@
+StudentID:2413110764
+studentName: Sathit saichu
+topic:github
+data:11/20/2024
