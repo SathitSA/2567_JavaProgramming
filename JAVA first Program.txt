@@ -1,0 +1,18 @@
+StudentID:2413110764
+StudentName:Sathit Saichu
+topic:First program
+data:11/20/2567
+
+public class Countdown
+{
+	public static void main(String[] args)
+	{
+	   System.out.printIn("StudentID:2413110764");
+	   System.out.printIn("StudentName:Sathit Saichu");
+	   System.out.printIn("topic:First program");
+	   System.out.printIn("data:11/20/2567");
+	   JOptionPan.showMessageDialog(null,
+	   		"StudentID:2413110764 \nStudentName:Sathit Saichu \ntopic:First program \ndata:11/20/2567"
+			"Message"
+	}
+}
