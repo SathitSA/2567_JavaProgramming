@@ -1,4 +1,5 @@
 StudentID:2413110764
 studentName: Sathit saichu
-topic:github
-data:11/20/2024
+topic:Display, Variable and Input
+data:11/27/2024
+
