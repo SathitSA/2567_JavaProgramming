@@ -14,6 +14,6 @@ public class JavaExmple2 {
 		String frmtotalwithVat = String.format("%,.2f",totalwithVat);
 		JOptionPane.showMessageDialog(null,"Total price is" +totalPriceofProduct+" baht."+"\nAdd VAT7% is"+totalwithVat+ " baht.");
 		 
-	}
+	} 
 
 }
