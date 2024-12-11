@@ -1,5 +1,6 @@
 StudentID:2413110764
 studentName: Sathit saichu
-topic:Control Statements and Confirm Dialog box
-data:12/4/2024
+topic:String Method
+data:12/11/2024
+
 
