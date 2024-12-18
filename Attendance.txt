@@ -1,6 +1,7 @@
 StudentID:2413110764
 studentName: Sathit saichu
-topic:String Method
-data:12/11/2024
+topic:Method
+data:12/18/2024
+
 
 
