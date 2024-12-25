@@ -1,7 +1,8 @@
 StudentID:2413110764
 studentName: Sathit saichu
-topic:Method
-data:12/18/2024
+topic:Array and Array Method
+data:12/25/2024
+
 
 
 
