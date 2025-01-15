@@ -1,32 +1,37 @@
 import javax.swing.JOptionPane;
 public class Lab507 {
-
 	public static void main(String[] args) {
-		int totalnum = 0;
-		for (int i =0;i<5;i++) {
-			int num = Integer.parseInt(JOptionPane.showInputDialog(null,"Input number "+(i+1)+":"));
-			int[] numArray = {num};
+		int[] numArray = new int[5];
+		for (int i = 0 ; i<5;i++) {
+			numArray[i] = Integer.parseInt(JOptionPane.showInputDialog(null,"Input number "+ (i+1) +":"));
+			
 		}
-		
+		/*for(in i = 0 ; i<5;i++) {
+			System.out.println(numArray[i]);
+		}*/
 		showEven(numArray);
 		
+		showOdd(numArray);
+
 	}
-	public static void showEven(int[] nums) {
-		for(int i = 0;i<nums.length;i++) {
-			int itemPrice=0;
-			if(nums[i] %  2 == 0) {
-				itemPrice = nums[i];
-			}
-			JOptionPane.showMessageDialog(null, "List of even number:\n"+itemPrice);
-	}
-	}
-	
-	public static void showOdd(int[] nums) {
-		for(int _num : nums) {
-			if(_num % 2 != 0) {
-				
+	public static void showEven(int num[]) {
+		String numOut = "";
+		for(int i = 0 ; i<5;i++) {
+			if(num[i] % 2 == 0) {
+				numOut +=  num[i] + " ";
 			}
 		}
+		JOptionPane.showMessageDialog(null, "List of even number:\n"+numOut);
+	}
+	
+	public static void showOdd(int num[]) {
+		String numOut = "";
+		for(int i = 0 ; i<5;i++) {
+			if(num[i] % 2 != 0) {
+				numOut +=  num[i] + " ";
+			}
+		}
+		JOptionPane.showMessageDialog(null, "List of Odd number:\n"+numOut);
 	}
 
 }
