@@ -1,7 +1,7 @@
 StudentID:2413110764
 studentName: Sathit saichu
-topic:Class and Object
-data:01/15/2024
+topic:Encapsulation Concept
+data:01/22/2024
 
 
 
