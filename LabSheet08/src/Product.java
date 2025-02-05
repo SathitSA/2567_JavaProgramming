@@ -1,4 +1,3 @@
-
 public class Product {
 	private String productId;
 	private int productUnit;
@@ -32,3 +31,4 @@ public class Product {
 		return (getUnit()*getPrice());
 	}
 }
+
