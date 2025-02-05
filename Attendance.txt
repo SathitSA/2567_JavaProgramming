@@ -1,7 +1,7 @@
 StudentID:2413110764
 studentName: Sathit saichu
-topic:Composition Concept , Array Object
-data:01/29/2024
+topic:Inheritance  Concept,Composition Concept
+data:02/05/2024
 
 
 
