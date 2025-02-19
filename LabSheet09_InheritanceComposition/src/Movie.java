@@ -1,4 +1,3 @@
-
 public class Movie {
 	private String id;
 	private String name;
@@ -26,4 +25,13 @@ public class Movie {
 		return this.director;
 	}
 	
+	public void setDirector(Director director) {
+		this.director = director;
+	}
+	
+	public String toString() {
+		return (getId()+" "+getName()+" "+getDirector());
+	}
+	
 }
+  

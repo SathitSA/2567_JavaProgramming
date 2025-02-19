@@ -1,4 +1,3 @@
-
 public class Director {
 	private String name;
 	private String email;
@@ -36,4 +35,4 @@ public class Director {
 	public String toString() {
 		return (getName()+"("+getEmail()+";"+getGenderName()+")");
 	}
-}
+}  
